@@ -17,7 +17,6 @@ The perceptron structure:
 
 [Link to video](https://www.youtube.com/watch?v=OFbnpY_k7js)
 
-
 ## A simple example of a full Neural Network
 
 Once a perceptron is understood, a NN is just a bunch of perceptrons connected to the inputs, outputs or to each other. The hard part about them is their architecture. There are several ways to design their structure and the performance will greatly depend on this. Imagine that the neural network was trained already. The next video will explain to you how the inputs get converted into predictions of a simple problem 
@@ -25,7 +24,6 @@ Once a perceptron is understood, a NN is just a bunch of perceptrons connected t
 <img src="../images/CqOfi41LfDwhd.jpg" alt="" width="300" height="auto">
 
 [Link to video](https://www.youtube.com/watch?v=CqOfi41LfDw)
-
 
 ## How does a Neural Network learn?
 
@@ -36,7 +34,6 @@ For example, if the task is a regression task, then a possible loss function wou
 This chain rule has been given a fancy name in the NN framework... _backpropagation_. The same way as evaluating the NN for a given input is called _forward propagation_. Two fancy names for very simple mathematical ideas.
 
 You can get more details and an example about this in the next video.
-
 
 <img src="../images/IN2XmBhILt4hd.jpg" alt="" width="300" height="auto">
 
@@ -74,4 +71,3 @@ Here you have a quick expannation on the subject.
 <img src="../images/s-V7gKrselshd.jpg" alt="" width="300" height="auto">
 
 [Link to video](https://www.youtube.com/watch?v=s-V7gKrsels)
-
