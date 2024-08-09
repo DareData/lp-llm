@@ -3,7 +3,7 @@
 There are several steps to constructing a Large Language Model. From understanding what a Neural Network (NN) is, the basic building blocks, towards grasping the complex concept of a Transformer.
 In this first chapter of this learning pod, we will describe and explain all the foundationa concepts that make Large Language Models (LLMs) possible.
 By the end of this 00 section, you should know about:
-- what a NN is and how perceptrons work as its basic units structures.
+- what a NN is and how perceptrons work as its basic units structures
 - how does a NN learn, incluiding the backpropagation rule
 - activation functions and their roles
 - tokens and embedding architectures
