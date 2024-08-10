@@ -60,9 +60,12 @@ In case you don't remember what gradient descent is, here you have one of the be
 
 We have talked about the activation function, but we have not explained to you what they are. Activation functions are called like this because the first example of these types of functions that was proposed was a Heaviside function (also known as step function). They determine whether some perceptron is activated or not, since the heaviside only takes values 0 or 1. This function is useless for NN since its output is only 1. One of the most common one is as variation called the Rectified Linear function (ReLU), given by 
 
-$$f(x)=\left\{\begin{array}{cc}0 &\text{ if } x<0\\
-x &\text{ if } x>0
-\end{array}\right..$$
+$$
+f(x) = \begin{cases} 
+0 & \text{if } x < 0 \\ 
+x & \text{if } x \geq 0 
+\end{cases}
+$$
 
 There are a ton of other activation functions and a whole lot of issues if one wants to do Neural Networks in production like the _dying ReLU_ and _vanishing gradient problems_. In here, we want to give a broad overview, so it is not.
 
