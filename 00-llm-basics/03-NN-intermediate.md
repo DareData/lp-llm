@@ -32,8 +32,7 @@ The seq2seq, or sequence-to-sequence, model is designed for tasks that involve c
 ## The Attention Mechanism 👁️🎯
 
 
-The Attention Mechanism allows the model to focus on different parts of the input sequence when predicting each part of the output sequence, mimicking the selective nature of human focus. It greatly improves the performance of seq2seq models by providing a shortcut between the context and the current target word being predicted.
-
+The Attention Mechanism allows the model to focus on different parts of the input sequence when predicting each part of the output sequence, mimicking the selective nature of human focus. It greatly improves the performance of seq2seq models by creating a direct connection between the context and the current target word being predicted. Essentially, the Attention Mechanism links the inputs to each step of the Decoder, allowing it to access these values directly.
 
 <img src="../images/PSs6nxngL6khd.jpg" alt="" width="300" height="auto">
 
