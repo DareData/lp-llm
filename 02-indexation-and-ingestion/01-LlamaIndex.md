@@ -52,4 +52,4 @@ In the [Llama-Methods](01.1-llama-methods.md) file we'll show some methods to im
 
 In the following Notebook you will find a practical example of the concepts discussed in this section. This simple example demonstrates how to ingest data, create an index and perform a query.
 
-[First Example Notebook](first_example.ipynb)
+[First Example Notebook](first_example_indexation_ingestion.ipynb)
