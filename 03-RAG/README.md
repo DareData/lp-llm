@@ -1,6 +1,9 @@
 # Retrieval-Augmented Generation
 
-It is one of the hottest topics regarding LLMs. Most of the applications are based on this idea since it is easy to implement, it only requires arquitecture and sending requests to most popular providers.
+Retrieval-Augmented Generation (RAG) is an approach that optimizes the performance of a Large Language Model (LLM) by retrieving relevant information from a knowledge base, outside of its training data, before generating a response. This process ensures that the generated output is grounded in specific, up-to-date, and reliable information. 
+
+As we know, LLMs are trained on large amounts of data and many parameters to generate original results for different tasks such as question answering or translation. RAG extends these powerful capabilities by allowing LLMs to access specific domains or an organization’s internal knowledge base — all without needing to retrain the model. Many applications use this approach because it is easy to implement, just involving architectural setup and sending requests to most popular providers.
+extends these powerful capabilities by allowing LLMs to access specific domains or an organization’s internal knowledge base—without needing to retrain the model.
 
 This module is then divided as follows:
 
