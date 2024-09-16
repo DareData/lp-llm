@@ -14,7 +14,13 @@ This whole process is done by two main components:
 - The Retriever: searches a bunch of documents or a knowledge base to find the most relevant information that matches a query or prompt. This component is similar to how traditional search engines work, identifying the top-k documents or chuncks that are most likely to contain the answers.
 - The Generator: once the relevant documents are retrieved, the generator (usually a language model like GPT) processes them to synthesize a coherent response. The LLM uses the retrieved content as a grounding mechanism to produce the text.
 
-<img src="../images/Jq9bEbitg1Pv4oASwEQwJg.png" alt="" width="3000" height="auto">
+The following video provides a simple but very comprehensive explanation of the basic concepts of RAG:
+
+[What is RAG?](https://www.youtube.com/watch?v=aywZrzNaKjs)
+
+## RAG STRUCTURE DIAGRAM
+
+<img src="../images/Jq9bEbitg1Pv4oASwEQwJg.png" alt="" width="650" height="300">
 
 
 In summary, by using RAG, developers can build more reliable, accurate, and context-aware LLM applications. This technique helps to generate responses based on up-to-date, relevant information form external sources, enhancing user experience and trust.
