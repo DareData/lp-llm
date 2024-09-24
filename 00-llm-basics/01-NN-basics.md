@@ -17,7 +17,6 @@ The perceptron structure:
 
 [Link to video](https://www.youtube.com/watch?v=OFbnpY_k7js)
 
-
 ## A simple example of a full Neural Network
 
 Once a perceptron is understood, a NN is just a bunch of perceptrons connected to the inputs, outputs or to each other. The hard part about them is their architecture. There are several ways to design their structure and the performance will greatly depend on this. Imagine that the neural network was trained already. The next video will explain to you how the inputs get converted into predictions of a simple problem 
@@ -25,7 +24,6 @@ Once a perceptron is understood, a NN is just a bunch of perceptrons connected t
 <img src="../images/CqOfi41LfDwhd.jpg" alt="" width="300" height="auto">
 
 [Link to video](https://www.youtube.com/watch?v=CqOfi41LfDw)
-
 
 ## How does a Neural Network learn?
 
@@ -36,7 +34,6 @@ For example, if the task is a regression task, then a possible loss function wou
 This chain rule has been given a fancy name in the NN framework... _backpropagation_. The same way as evaluating the NN for a given input is called _forward propagation_. Two fancy names for very simple mathematical ideas.
 
 You can get more details and an example about this in the next video.
-
 
 <img src="../images/IN2XmBhILt4hd.jpg" alt="" width="300" height="auto">
 
@@ -58,17 +55,19 @@ In case you don't remember what gradient descent is, here you have one of the be
 
 ## Activation functions
 
-We have talked about the activation function, but we have not explained to you what they are. Activation functions are called like this because the first example of these types of functions that was proposed was a Heaviside function (also known as step function). They determine whether some perceptron is activated or not, since the heaviside only takes values 0 or 1. This function is useless for NN since its output is only 1. One of the most common one is as variation called the Rectified Linear function (ReLU), given by 
+We have talked about the activation function, but we have not explained to you what they are. Activation functions are called like this because the first example of these types of functions that was proposed was a Heaviside function (also known as step function). They determine whether some perceptron is activated or not, since the heaviside only takes values 0 or 1. This function is useless for NN since its output is only 1. One of the most common activation functions is a variation called the Rectified Linear function (ReLU), given by 
 
-$$f(x)=\left\{\begin{array}{cc}0 &\text{ if } x<0\\
-x &\text{ if } x>0
-\end{array}\right..$$
+$$
+f = \begin{cases}
+  0 & \text{if $x \le 0$} \\
+  x & \text{if $x \gt 0$}
+\end{cases}
+$$
 
-There are a ton of other activation functions and a whole lot of issues if one wants to do Neural Networks in production like the _dying ReLU_ and _vanishing gradient problems_. In here, we want to give a broad overview, so it is not.
+There are a ton of other activation functions and a whole lot of issues if one wants to do Neural Networks in production like the _dying ReLU_ and _vanishing gradient problems_.
 
 Here you have a quick expannation on the subject.
 
 <img src="../images/s-V7gKrselshd.jpg" alt="" width="300" height="auto">
 
 [Link to video](https://www.youtube.com/watch?v=s-V7gKrsels)
-
