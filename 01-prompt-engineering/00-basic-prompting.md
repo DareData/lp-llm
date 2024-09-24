@@ -83,20 +83,31 @@ Based on the text, 'Romeo and Juliet is a tragedy by Shakespeare,' explain the t
 <br>
 
 
-## Andrew NG
+## Andrew NG Prompt Engineering course
 
-We will closely follow a course from Stanford's Proffessor Andrew NG on prompt engineering. He is a renowned expert in the AI field, while also being one of the best references available on youtube and other teaching platforms. Here you have the first part of the course.
+We will closely follow a course from Stanford's Proffessor Andrew NG on prompt engineering. He is a renowned expert in the AI field, while also being one of the best references available on youtube and other teaching platforms. 
+This course is available in the teaching platform DeepLearning.AI, you just need to sign up with your e-mail and start browsing the content.
+The link for the course is here:
 
-<img src="../images/Dme7TqCyIqshd.jpg" alt="" width="300" height="auto">
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
 
-[Link to video](https://www.youtube.com/watch?v=Dme7TqCyIqs)
+This short course will describe how LLMs work, provide best practices for prompt engineering, and show how LLM APIs can be used in applications for a variety of tasks.
+You'll see that the course has 9 sections, that are:
+1. Introduction
+2. Guidelines
+3. Iterative
+4. Summarizing
+5. Inferring
+6. Transforming
+7. Expanding
+8. Chatbot
+9. Conclusion
 
+In each part of this week, there will be references to the course video that is related to the content.
+
+For a quick start and a foundational understanding of prompt engineering, you can check the first and second videos (Introduction and Guidelines).
 
 ### Prompt workflow
 
-It is rarely the case that you get the prompt first try. These types of generative models require a lot of trial-error attempts, so getting the right prompt takes a couple of iterations. Here is an example on how to tune these prompts for our specific tasks.
-
-<img src="../images/GD3DCPeIaYUhd.jpg" alt="" width="300" height="auto">
-
-[Link to video](https://www.youtube.com/watch?v=GD3DCPeIaYU)
+It is rarely the case that you get the prompt first try. These types of generative models require a lot of trial-error attempts, so getting the right prompt takes a couple of iterations. The third section (Iterative) of the NG Course covers how to tune these prompts for our specific tasks.
 

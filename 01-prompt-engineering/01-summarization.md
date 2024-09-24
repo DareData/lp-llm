@@ -40,9 +40,9 @@ Extract relevant information to give feedback to the Shipping Department.
 """
 ```
 
-<img src="../images/Bm4LtOKNIRAhd.jpg" alt="" width="300" height="auto">
+To see more about summarizing you can check the fourth part of the NG Course (Summarizing).
 
-[Link to video](https://www.youtube.com/watch?v=Bm4LtOKNIRA)
+[Link to course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 
 ## Inference Tasks with Language Models 🤔
 
@@ -81,7 +81,6 @@ Determine whether the following topics are covered in the text below: [Topic Lis
 """
 ```
 
+In the fifth part of the NG Course you'll learn about Inferring by analyzing sentiment and topics from product reviews and news articles.
 
-<img src="../images/FK0iIbfuuwAhd.jpg" alt="" width="300" height="auto">
-
-[Link to video](https://www.youtube.com/watch?v=FK0iIbfuuwA)
+[Link to course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
