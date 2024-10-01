@@ -28,6 +28,8 @@ ChatGPT uses a tokenizer based on a method called Byte-Pair Encoding (BPE). This
 
 ## BERT Tokenizer 🔡🤖
 
+### WordPiece
+
 BERT employs a tokenizer that uses the WordPiece model, which is capable of using subword units like BPE or a unigram language model. The key advantages include:
 
 - It is language-agnostic, as it treats the text as a sequence of Unicode characters.
