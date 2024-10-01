@@ -22,7 +22,10 @@ The following video provides a simple but very comprehensive explanation of the 
 
 <img src="../images/Jq9bEbitg1Pv4oASwEQwJg.png" alt="" width="650" height="300">
 
-
 In summary, by using RAG, developers can build more reliable, accurate, and context-aware LLM applications. This technique helps to generate responses based on up-to-date, relevant information form external sources, enhancing user experience and trust.
 
-In a following section we will explore how LLM models can use tools to retrieve extra information, expanding their capabilities.
+To bridge this initial RAG explanation with the next section on RAG implementation, we show the next video. There, you'll explore and understand the details and steps involved in the RAG implementation process. 
+
+ [How to set up RAG - Retrieval Augmented Generation (demo)](https://www.youtube.com/watch?v=P8tOjiYEFqU)
+ 
+> Note: In a following section we will explore how LLM models can use tools to retrieve extra information, expanding their capabilities.
