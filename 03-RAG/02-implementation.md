@@ -1,10 +1,6 @@
 ## Implementing RAG
 
-Following the video shown in the previous section, where the basic concepts of RAG were explained; the next video provides a detailed description of implementing a RAG system. The main goal of this implementations is to enhance the LLMs performance by integrating external information to generate better responses.
-
-The video:
-[How to set up RAG](https://youtu.be/P8tOjiYEFqU)
-
+Following the two videos shown in the previous section, where the basic concepts of RAG and the detailed steps of implementing a RAG system were explained, this section will explore various ways to implement this method in your projects. The main goal of this RAG implementations is to enhance the LLMs performance by integrating external information to generate better responses.
 
 ## Implementing RAG in LangChain and LlamaIndex
 
