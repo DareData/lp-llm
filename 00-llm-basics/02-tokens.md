@@ -36,7 +36,6 @@ BERT employs a tokenizer that uses the WordPiece model, which is capable of usin
 - WordPiece enables the model to balance between character and word tokenizations, gaining the benefits of both.
 - It efficiently handles a vast vocabulary size by breaking down words into meaningful subword units.
 
-
 ## Next Steps: Building Towards Embeddings
 
 Tokenization is a critical step in transforming input text into numerical values that a neural network can understand. However, tokenization alone isn't enough. We need to turn these numbers into meaningful vectors, known as embeddings. To achieve this, we must navigate through a series of interconnected concepts:

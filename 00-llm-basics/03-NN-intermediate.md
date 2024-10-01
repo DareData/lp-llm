@@ -20,17 +20,13 @@ Long Short-Term Memory networks (LSTMs) are an extension of RNNs that can learn 
 
 ## seq2seq Encoder-Decoder 🔄🔁
 
-
-The seq2seq, or sequence-to-sequence, model is designed for tasks that involve converting sequences from one domain to another, like translation. It consists of two main components: an encoder that processes the input sequence and a decoder that generates the output sequence.
+A seq2seq or sequence-to-sequence model is designed for tasks that involve converting sequences from one domain to another, like translation. It consists of two main components: an encoder that processes the input sequence and a decoder that generates the output sequence.
 
 <img src="../images/L8HKweZIOmghd.jpg" alt="" width="300" height="auto">
 
 [Link to video](https://www.youtube.com/watch?v=L8HKweZIOmg)
 
-
-
 ## The Attention Mechanism 👁️🎯
-
 
 The Attention Mechanism allows the model to focus on different parts of the input sequence when predicting each part of the output sequence, mimicking the selective nature of human focus. It greatly improves the performance of seq2seq models by creating a direct connection between the context and the current target word being predicted. Essentially, the Attention Mechanism links the inputs to each step of the Decoder, allowing it to access these values directly.
 

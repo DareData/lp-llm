@@ -13,5 +13,8 @@ The most basic RAG is therefore based on comparing a query (a question or some r
 
 <img src="../images/Jq9bEbitg1Pv4oASwEQwJg.png" alt="" width="3000" height="auto">
 
+ [How to set up RAG - Retrieval Augmented Generation (demo)](https://www.youtube.com/watch?v=P8tOjiYEFqU)
+ 
 > Note: we will see in a following section that we can give LLM models the ability to use tools to retrieve extra information.
+
 
