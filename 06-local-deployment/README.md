@@ -1,5 +1,7 @@
 ## Local deployment 🏠
 
-This section has to be taken with a grain of salt since we will only discuss a general overview regarding deploying LLMs locally. This is because this can become arbitrarily hard depending on the specific system and infrastructure that you have available. 
+In this section, we'll give a general overview of deploying LLMs locally. It's essential to mention that the complexity of local deployment can change widely depending on your specific system and the available infrastructure.
 
-However, we will discuss the main pros and cons and present to you some interesting tools to start exploring the possibility of having these models on your personal hardware. Ready or not, head [here](01-local-deployment.md) and good luck!
+Local deployment allows you to run models directly on personal hardware, rather than relying on external cloud-based servers. It provides benefits such as improved data privacy, reduced latency, and better control over model updates. We'll discuss the main pros and cons of local deployment and introduce some useful tools to help you get started. 
+
+Ready or not, head [here](01-local-deployment.md) and good luck!
