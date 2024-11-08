@@ -1,20 +1,31 @@
 # Retrieval-Augmented Generation
 
-The most limiting factor of LLM models is that they have only had access to their training data. Althought there are some ways of circumventing this issue like fine-tuning, which we will discuss in the next section. However, one of the most common and cheaper options is Retrieval-Augmented Generation or RAG.
+One significant limitation of LLMs is that they can only access to their training data, so when the model generates an answer it can only draw upon information that existed at the time it was trained. With Retrieval-Argumented Generation (RAG), models can use a private database of up-to-date information to provide more informed and current responses.
 
-It solves a couple of issues, but the most common ones are:
-1. __Outdated training data__: some applications may require access to the latest information like the weather, some transactions, etc.
-2. __No references for the answer__: we know that LLM's have the tendency to hallucinate, so knowing where the reply came from, its source, is fundamental to pinpoint these cases.
+The using of RAG solves several issues, but the most common are:
+1. **Outdated training data**: some applications may require access to the latest information, such as current weather conditions, recent transactions, etc. This is not possible with static training data.
+2. **No references for the answer**: we know that LLM's have the tendency to hallucinate (they can generate information that is not grounded in reality). Knowing the source of a response is fundamental for pinpoint these cases and verify the accuracy and reliability of the responses.
 
+RAG is a very simple technique to understand: it consists on creating an augmented answer based on retrieved information. And how does this work? Now that you are familiar with indexation and ingestion, you know we have ways of associating an LLM-based entity, the embeddding, with chunks of text that constitute our sources. 
 
-RAG is a very simple technique to understand: it consists on creating an augmented answer based on retrieved information. And how does this work? Now that you are familiar with indexation and ingestion, you know that we have ways of associating an entity that is LLM-based in nature, the embeddding, to chunks of text that constitute our sources.  
+So, the most basic RAG is based on comparing a query (a question or request) to the most similar chunks of text. This way, we can retrieve the most relevant information from our knowledge base and provide it to the model in order to reply to this query. 
 
-The most basic RAG is therefore based on comparing a query (a question or some request) to the most similar chunks of text. This way, we can retrieve the most relevant information from our knowledge base and provide it to the model in order to reply to said query. 
+This whole process is done by two main components:
+- The Retriever: searches a bunch of documents or a knowledge base to find the most relevant information that matches a query or prompt. This component is similar to how traditional search engines work, identifying the top-k documents or chuncks that are most likely to contain the answers.
+- The Generator: once the relevant documents are retrieved, the generator (usually a language model like GPT) processes them to synthesize a coherent response. The LLM uses the retrieved content as a grounding mechanism to produce the text.
 
-<img src="../images/Jq9bEbitg1Pv4oASwEQwJg.png" alt="" width="3000" height="auto">
+The following video provides a simple but very comprehensive explanation of the basic concepts of RAG:
+
+[What is RAG?](https://www.youtube.com/watch?v=aywZrzNaKjs)
+
+## RAG STRUCTURE DIAGRAM
+
+<img src="../images/Jq9bEbitg1Pv4oASwEQwJg.png" alt="" width="650" height="300">
+
+In summary, by using RAG, developers can build more reliable, accurate, and context-aware LLM applications. This technique helps to generate responses based on up-to-date, relevant information form external sources, enhancing user experience and trust.
+
+To bridge this initial RAG explanation with the next section on RAG implementation, we show the next video. There, you'll explore and understand the details and steps involved in the RAG implementation process. 
 
  [How to set up RAG - Retrieval Augmented Generation (demo)](https://www.youtube.com/watch?v=P8tOjiYEFqU)
  
-> Note: we will see in a following section that we can give LLM models the ability to use tools to retrieve extra information.
-
-
+> Note: In a following section we will explore how LLM models can use tools to retrieve extra information, expanding their capabilities.
