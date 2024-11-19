@@ -46,10 +46,10 @@ involves fetching relevant information from your knowledge base in response to q
 - Response Synthesis: Combine the query, relevant data, and the prompt. And then send them to the LLM to generate a response.
 
 This Querying process is highly customizable and there are many methods and techniques to carry out these actions.
-In the [Llama-Methods](examples/01.1-llama-methods.md) file we'll show some methods to implement this advanced customization.
+In the [Llama-Methods](01.1-llama-methods.md) file we'll show some methods to implement this advanced customization.
 
 #### EXAMPLE
 
 In the following Notebook you will find a practical example of the concepts discussed in this section. This simple example demonstrates how to ingest data, create an index and perform a query.
 
-[First Example Notebook](first_example_indexation_ingestion.ipynb)
+[First Example Notebook](examples/first_example_indexation_ingestion.ipynb)
