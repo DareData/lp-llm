@@ -12,7 +12,7 @@ We have divided this module as follows:
 
 1. [HuggingFace](01-HuggingFace.md): in this section we introduce HuggingFace, a model hub and package that works as the "Github of LLMs". Basically, it hosts the most common open-source models, as well as some libraries that allow you to play with them. 
 
-2. [Practicalexample](example-file): an example notebook demostrating a fine-tuning implementation using both a model and dataset from Hugging Face. The goal is to walk you through the steps of applying fine-tuning using LoRa.
+2. [Practical examples](examples): example notebooks demostrating fine-tuning implementation using both a model and dataset from Hugging Face. The goal is to walk you through the steps of applying fine-tuning using LoRa.
 
 
 > Fine-tuning requires a bit of extra knowledge regarding neural networks, you can take a look at the [llm basics section](../00-llm-basics/README.md) or at [DareData's Pytorch fundamentals Learning Pod](https://github.com/DareData/lp-pytorch-fundamentals).
