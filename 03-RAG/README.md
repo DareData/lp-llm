@@ -11,4 +11,5 @@ This module is then divided as follows:
 
 - [RAG](01-RAG.md): an explanation on why RAG is needed and what the main ideas are
 - [Implementation](02-implementation.md): explaining the implementation of basic RAG structures in some different ways.
-- [Applications](02-applications.md): the most subtle thing regarding RAG is how to build the solutions using this technique. For that reason, we have a section discussing possible use-cases for RAG and some further sophistications regarding each use-case.
+- [Applications](03-applications.md): the most subtle thing regarding RAG is how to build the solutions using this technique. For that reason, we have a section discussing possible use-cases for RAG and some further sophistications regarding each use-case.
+- [Examples](04-RAGexamples.ipynb): a notebook showing examples of an LLM performing a text generation task. In this examples, we show two different ways of using RAG to enhance this text generation by incorporating relevant context.
